@@ -13,25 +13,29 @@
 //       The app should show the number of games the player wins and loses. To that end, do not refresh the page as a means to restart the game. -->
 $(document).ready(function(){
   // generating a random number between 1 and 12 for each picture
-  var bufflao = Math.floor(Math.random) * 12) + 1);
-  var buffaloNy = Math.floor(Math.random) * 12) + 1);
-  var bullies = Math.floor(Math.random) * 12) + 1);
-  var buffalo4 = Math.floor(Math.random) * 12) + 1);
+  var buffalo = Math.floor((Math.random())* 12 + 1);
+  console.log(buffalo);
+  var buffaloNy = Math.floor((Math.random())* 12 + 1);
+  console.log(buffaloNy);
+  var bullies = Math.floor((Math.random()) * 12 + 1);
+  console.log(bullies);
+  var buffalo4 = Math.floor((Math.random()) * 12 + 1);
+  console.log(buffalo4);
 
   // generating a random number between 19 and 120  to start the games
-  var goalNumber = Math.floor(Math.random) * 120) + 19);
+  var goalNumber = Math.floor((Math.random()) * 120 + 19);
+  console.log(goalNumber);
 
   // show wins and losses on screen
     var win = 0;
     var losses = 0;
 
   // current number that you images have added up to
-  var currentNumber = buffalo + buffaloNy + bullies + buffalo4;
+  var currentNumber = "";
 
+//
+  $("#Buffalo").on("click", function() {
 
-
-// display crystal
-  $("").on("click", function() {
 
   });
 });
