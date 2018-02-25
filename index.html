@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title> Week4 Game </title>
+    <!--jQuery CDN link  -->
+    <script
+
+      src="https://code.jquery.com/jquery-3.3.1.js"
+      integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+      crossorigin="anonymous">
+    </script>
+
+    <!-- The player will have to guess the answer, just like in Hangman. This time, though, the player will guess with numbers instead of letters.
+    Here's how the app works:
+    1. There will be four crystals displayed as buttons on the page.
+    2. The player will be shown a random number at the start of the game.
+    3. When the player clicks on a crystal, it will add a specific amount of points to the player's total score.
+    4. Your game will hide this amount until the player clicks a crystal.
+    5. When they do click one, update the player's score counter.
+    6. The player wins if their total score matches the random number from the beginning of the game.
+    7. The player loses if their score goes above the random number.
+    8. The game restarts whenever the player wins or loses.
+          When the game begins again, the player should see a new random number. Also, all the crystals will have four new hidden values. Of course, the user's score (and score counter) will reset to zero.
+
+          The app should show the number of games the player wins and loses. To that end, do not refresh the page as a means to restart the game. -->
+  </head>
+
+
+  <body>
+    <div class= "Buffalo Collector">
+      <h1> Buffalo Buffalo Buffalo Buffalo Buffalo Buffalo </h1>
+    </div>
+
+    <div class= "Infor body">
+
+      <p> You will be given a random number at the start of the game. </p>
+
+      <p> There are four crystal below. By clicking on the crystal you will add a specfic amont of points to your total score.</p>
+
+      <p> You win the game by matching your total score to random numbers, you lose the game if your total score goes above the random number.</p>
+
+      <p> The value of each crystal  is hidden from you until you click on it.</p>
+
+      <p> Each time the game starts, the game will change the value of each crystal.</p>
+    </div>
+
+    <!--random number is genterated Here  -->
+    <div class= "ranNumbgen">
+      <h2></h2>
+    </div>
+
+    <!--Win loss displayed  -->
+    <div class= "winLose">
+      <h3> Wins: "" </h3>
+      <h3> Losses: "" </h3>
+    </div>
+
+    <!--dispaying crystal in this area  -->
+    <div class= "cyrstalDisplay">
+      <img id= "Bufflao" src="https://vignette.wikia.nocookie.net/thecreatures/images/3/33/Buffalo.jpg/revision/latest?cb=20130630233438" height= "200px" width="200px">
+      </img>
+
+      <img id= "BuffaloNY" src="https://upload.wikimedia.org/wikipedia/en/6/63/Aerial_photo_of_Buffalo%2C_NY_Skyline.jpg"height= "200px" width="200px">
+      </img>
+
+      <img id= "Bullies" src="http://media.cleveland.com/living_impact/photo/10169401-large.jpg" height= "200px" width="200px">
+      </img>
+
+      <img id= "Buffalo4" src="https://i.imgur.com/YiPFMB8.png" height= "200px" width="200px">
+      </img>
+    </div>
+
+    <!-- your score displayed here  -->
+    <div class= "yourScore">
+
+    </div>
+
+    <!--random number that is generated showen   -->
+    <div class= "numGen">
+
+    </div>
+
+    <script> scr="javascript/assets/javascript/games.js"</script>
+  </body>
+</html>
