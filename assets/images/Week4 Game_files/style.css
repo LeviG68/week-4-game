@@ -1,15 +1,10 @@
- /* *{
+ *{
   outline: 1px solid red !important;
-} */
+}
 
 body {
-  background-image: url("https://photonaturalist.files.wordpress.com/2017/06/bison-head-black-and-white-yellowstone-national-park-wy-sparky-stensaas-0797.jpg");
-  opacity: images; 0.5;
-  font-weight: bolder;
-  color: #f442d4;
-}
-body::after{
-  opacity: 0.0;
+  /* background-color: red; */
+  background-image: url("assets/images/bison_sketch_by_sunwolf29-d601yxi.jpg");
 }
 .Buffalo-Collector{
   text-align: center;
@@ -20,6 +15,7 @@ body::after{
   padding-right: 5%;
   margin: 0;
 }
+
 #Bufftitle{
   font-size: 50px;
   padding: 0px;
@@ -27,34 +23,30 @@ body::after{
 }
 
 .Infor-body{
-  /* float: left; */
+  float: left;
   text-align: center;
   font-family: cursive;
   font-size: 17px;
   width: 60%;
-  /* height: 300px; */
+  height: 300px;
   margin:0px;
   padding-right: 0px;
 }
 .ranNumbgen{
   font-size: 30px;
-  float:right;
+  /* float:right; */
   width: 150px;
-  /* height: 150px; */
+  height: 150px;
   display: flex;
-  position: relative;
-  clear:both;
+  /* position: absolute; */
+  /* clear:both; */
 }
 .WinLose{
-  position: absolute;
+  /* position: fixed; */
   float: right;
   height: 100px;
   width: 100px;
   position: fixed;
-}
-#wins,#losses{
-  margin: 0px;
-  position: relative;
 }
 .Buffalo-Display{
   /* float:right; */
@@ -64,7 +56,7 @@ body::after{
 #Buffalo,#BuffaloNy,#Bullies,#Buffalo4{
   padding-left: 30px;
   position: relative;
-  float:left;
+  /* float:left; */
 }
 .yourScore{
   font-size: 20px;

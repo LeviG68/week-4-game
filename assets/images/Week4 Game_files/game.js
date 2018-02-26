@@ -54,7 +54,7 @@ $(document).ready(function(){
   $("#Bullies").on("click", function() {
     console.log(BuffaloNy);
     currentNumber = currentNumber + bullies;
-    $("#yourScore").text("Your current score is: " + currentNumber);
+    $(".#yourScore").text("Your current score is: " + currentNumber);
     winlose();
     console.log(currentNumber);
   });
